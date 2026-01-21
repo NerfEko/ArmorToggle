@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "armortoggle",
+  "version": "${version}",
+  "name": "ArmorToggle",
+  "description": "ArmorToggle by EvilEKo. A simple mod that allows you to toggle the visibility of your armor with a single keybind, perfect for showing off your skin without losing protection.",
+  "authors": [
+    "EvilEKo"
+  ],
+  "contact": {
+    "sources": "https://github.com/example/armor-toggle"
+  },
+  "license": "MIT",
+  "icon": "assets/armortoggle/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.armortoggle.ArmorToggleMod"
+    ],
+    "client": [
+      "com.armortoggle.ArmorToggleClient"
+    ]
+  },
+  "mixins": [
+    "armortoggle.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "fabric-api": "*",
+    "minecraft": ">=1.21.11"
+  }
+}
