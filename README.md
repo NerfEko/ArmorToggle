@@ -9,8 +9,9 @@ ArmorToggle by EvilEKo. A simple Minecraft Fabric mod that allows you to toggle 
 
 ## Installation
 1. Install [Fabric Loader](https://fabricmc.net/).
-2. Download the latest version of this mod and place it in your `mods` folder.
-3. Install [Fabric API](https://curseforge.com/minecraft/mc-mods/fabric-api) for better compatibility.
+2. Download [Fabric API](https://curseforge.com/minecraft/mc-mods/fabric-api) and place it in your `mods` folder.
+3. Download the latest version of this mod and place it in your `mods` folder.
+
 
 ## Usage
 Press **G** (default) to toggle armor visibility. You can change this keybind in the Minecraft controls settings.
